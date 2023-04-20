@@ -95,7 +95,7 @@ git clone `https://github.com/your_username/hit-song-science-predictor.git`
 
 2. Install the required packages:
 
-pip install -r requirements.txt
+`pip3 install -r requirements.txt`
 
 
 3. Set up your API keys for Spotify and Musixmatch as environment variables or add them to the script.
