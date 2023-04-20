@@ -4,7 +4,7 @@ Predict the likelihood of a song becoming a hit with **audio features** and **ly
 
 ## My Project Overview
 
-- Scrapes a dataset of **Top 200 songs** from the US in 2023/1-2 (8 weeks * 200 songs) using `BeautifulSoup`
+- Scrapes a dataset of **Top 200 songs** from the US in 2023/Jan&Feb using `BeautifulSoup`
 - Retrieves audio data of all songs using the `Spotify API`
 - Retrieves lyrics of all songs using the `Musixmatch API`
 - Cleans and preprocesses the lyrics text using `nltk`
