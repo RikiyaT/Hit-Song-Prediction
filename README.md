@@ -10,8 +10,20 @@ Predict the likelihood of a song becoming a hit with **audio features** and **ly
 - Cleans and preprocesses the lyrics text using `nltk`
 - Performs sentiment analysis on the lyrics using `BERT` and `VADER` for sentiment scores
 - Compares the performance of datasets with only audio features (default dataset) and datasets with sentiment analysis (new dataset)
-- Evaluates hit song predictions using `Gradient Boosting`, `Random Forest`, and `SVM` classifiers
+- Predicts hit songs using `Gradient Boosting`, `Random Forest`, and `SVM` classifiers
 - Analyzes the predictions using `Ridge recursion` and `ElasticNet` analysis
+
+##Explanation of Folders
+
+**rankingdata.ipynb** : this file retrieves the top charts from Spotify using BeautifulSoup.
+
+**makingcsvfile.ipynb**, **combine.ipynb**, **addlyrics.ipynb** : these file retrieves and combines the data to make csv files.
+
+**eval_lyrics.ipynb** : this file analyzes the sentiment of the lyrics using BERT and VADER.
+
+**evaluation.ipynb** : this file uses `Gradient Boosting`, `Random Forest`, and `SVM` classifiers to predict hit songs. It also contains `Ridge recursion` and `ElasticNet recursion` to analyze the predictions made.
+
+
 
 ## Libraries and Dependencies
 
@@ -67,10 +79,11 @@ This project relies on numerous Python libraries to work with data, APIs, and ma
 4. **Ridge Recursion and ElasticNet Analysis**
 
    - Perform `Ridge recursion` and `ElasticNet` analysis to compare predictions
+   
+##My Results
+Using the dataset of January and Feburary 2023 TopChart US, the results were:
 
-## Results of accuracy:
 
-Screenshots of the experiment results are included at the end of this README. All experiments are conducted in a Jupyter Notebook, which you can also find in this repository.
 
 ## 🚀 Getting Started
 
