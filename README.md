@@ -86,4 +86,4 @@ pip install -r requirements.txt
 
 3. Set up your API keys for Spotify and Musixmatch as environment variables or add them to the script.
 
-4. Run the Jupyter Notebook to start predicting hit songs!
+4. Run the Jupyter Notebook to start predicting hit songs! If you want to know the latest hit song predictions, I recommend you to get the dataset of the latest top chart from `Spotify API` and analyze it
