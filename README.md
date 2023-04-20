@@ -16,7 +16,8 @@ Predict the likelihood of a song becoming a hit with **audio features** and **ly
 ## Libraries and Dependencies
 
 This project relies on numerous Python libraries to work with data, APIs, and machine learning models. All dependencies can be found in the `requirements.txt` file. To install the required packages, simply run the following command:
-pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 
 ## Dataset Preparation
 
@@ -75,7 +76,7 @@ Screenshots of the experiment results are included at the end of this README. Al
 
 1. Clone this repository:
 
-git clone https://github.com/your_username/hit-song-science-predictor.git
+git clone `https://github.com/your_username/hit-song-science-predictor.git`
 
 
 2. Install the required packages:
