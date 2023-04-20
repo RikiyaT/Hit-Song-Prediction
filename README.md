@@ -80,8 +80,9 @@ This project relies on numerous Python libraries to work with data, APIs, and ma
 
    - Perform `Ridge recursion` and `ElasticNet` analysis to compare predictions
    
-##My Results
-Using the dataset of January and Feburary 2023 TopChart US, the results were:
+## My Results
+
+Using the dataset of January and Feburary 2023 TopChart US, my results show that the Gradient Boost is the best method to make a hit song prediction.
 
 
 
