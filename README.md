@@ -13,7 +13,7 @@ Predict the likelihood of a song becoming a hit with **audio features** and **ly
 - Predicts hit songs using `Gradient Boosting`, `Random Forest`, and `SVM` classifiers
 - Analyzes the predictions using `Ridge recursion` and `ElasticNet` analysis
 
-##Explanation of Folders
+## Explanation of Folders
 
 **rankingdata.ipynb** : this file retrieves the top charts from Spotify using BeautifulSoup.
 
