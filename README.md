@@ -19,7 +19,7 @@ Predict the likelihood of a song becoming a hit with **audio features** and **ly
 
 **makingcsvfile.ipynb**, **combine.ipynb**, **addlyrics.ipynb** : these file retrieves and combines the data to make csv files.
 
-**eval_lyrics.ipynb** : this file analyzes the sentiment of the lyrics using BERT and VADER.
+**eval_lyrics.ipynb** : this file analyzes the sentiment of the lyrics using `BERT` and `VADER`.
 
 **evaluation.ipynb** : this file uses `Gradient Boosting`, `Random Forest`, and `SVM` classifiers to predict hit songs. It also contains `Ridge recursion` and `ElasticNet recursion` to analyze the predictions made.
 
