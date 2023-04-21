@@ -23,14 +23,6 @@ Predict the likelihood of a song becoming a hit with **audio features** and **ly
 
 **evaluation.ipynb** : this file uses `Gradient Boosting`, `Random Forest`, and `SVM` classifiers to predict hit songs. It also contains `Ridge recursion` and `ElasticNet recursion` to analyze the predictions made.
 
-
-
-## Libraries and Dependencies
-
-This project relies on numerous Python libraries to work with data, APIs, and machine learning models. All dependencies can be found in the `requirements.txt` file. To install the required packages, simply run the following command:
-
-`pip install -r requirements.txt`
-
 ## Dataset Preparation
 
 1. **Scraping the Data**
@@ -83,21 +75,3 @@ This project relies on numerous Python libraries to work with data, APIs, and ma
 ## My Results
 
 **Using the dataset of January and Feburary 2023 TopChart US, my results show that the Gradient Boost is the best method to make a hit song prediction.**
-
-
-
-## 🚀 Getting Started
-
-1. Clone this repository:
-
-git clone `https://github.com/your_username/hit-song-science-predictor.git`
-
-
-2. Install the required packages:
-
-`pip3 install -r requirements.txt`
-
-
-3. Set up your API keys for Spotify and Musixmatch as environment variables or add them to the script.
-
-4. Run the Jupyter Notebook to start predicting hit songs! If you want to know the latest hit song predictions, I recommend you to get the dataset of the latest top chart from `Spotify API` and analyze it
