@@ -1,4 +1,4 @@
-# 🎵 Hit Song Predictor
+# Hit Song Predictor
 
 Predict the likelihood of a song becoming a hit with **audio features** and **lyric sentiment analysis**! This project combines music information retrieval techniques, natural language processing, and machine learning to create an exciting and innovative approach to predicting hit songs. Stay ahead of the curve in the music industry by leveraging the power of data!
 
